@@ -8,7 +8,7 @@ Prerequisites:
 
 Python 3.10 or higher installed.
 
-Trained model files (`keras_Model.h5` and `labels.txt`) from Teachable Machine (to obtain them: visit the site, click "Get Started," select "Image Project," then "Standard Image Mode." There, you can either upload files or record the classes you intend to use for training via your webcam. Afterward, click "Train Model." Once finished, click "Export Model," select "TensorFlow," and copy the code from the Keras section—you can use this as a base, though you may need to make modifications as I did. Additionally, download the model; a folder will be created containing the necessary files, which you should move into your project folder: `keras_model.h5` and `labels.txt`). 
+Trained model files (`keras_Model.h5` and `labels.txt`) from Teachable Machine (to obtain them: visit the site, click "Get Started," select "Image Project," then "Standard Image Mode." There, you can either upload files or record the classes you intend to use for training via your webcam. Afterward, click "Train Model." Once finished, click "Export Model," select "TensorFlow," and copy the code from the Keras section—you can use this as a base, though you may need to make modifications as I did. Additionally, download the model; a folder will be created containing the necessary files, which you should move into your project folder: `keras_model.h5` and `labels.txt`. And make sure your webcam isn't active in Teachable Machine while running the project.). 
 
 Step-by-Step Commands: Open your VS Code terminal within the project folder and run the following commands:
 
@@ -49,7 +49,7 @@ Pré-requisitos:
 
 Python 3.10 ou superior instalado.
 
-Os arquivos do modelo treinado (keras_Model.h5 e labels.txt) do Teachable Machine(para instalar eles, apenas vá no site, clique em get started, depois em image project, então em Standar image mode, e lá poderá ou enviar arquivos ou gravar pela webcam as classes que irá usar para o treinamento do modelo, após isso, clique em train model, e depois de concluído, clique em export model, depois em Tensorflow e daí copie o código da sessão Keras, aí você usará ele de base para o código e poderá ter que fazer algumas modificações como eu fiz, mas além disso, faça download do modelo, será criada uma pasta e dentro dela, você deve pegar os arquivos dela e botar na pasta do projeto, serão criados o keras_model.h5 e o labels.text).
+Os arquivos do modelo treinado (keras_Model.h5 e labels.txt) do Teachable Machine(para instalar eles, apenas vá no site, clique em get started, depois em image project, então em Standar image mode, e lá poderá ou enviar arquivos ou gravar pela webcam as classes que irá usar para o treinamento do modelo, após isso, clique em train model, e depois de concluído, clique em export model, depois em Tensorflow e daí copie o código da sessão Keras, aí você usará ele de base para o código e poderá ter que fazer algumas modificações como eu fiz, mas além disso, faça download do modelo, será criada uma pasta e dentro dela, você deve pegar os arquivos dela e botar na pasta do projeto, serão criados o keras_model.h5 e o labels.text. E certifique-se que sua webcam não esteja ligada no Teachable Machine enquanto roda o projeto).
 
 Comandos Passo a Passo:
 
